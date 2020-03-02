@@ -1,0 +1,54 @@
+body{
+    margin:0;
+}
+
+div{
+    font-size: 1.5em;
+    color: white;
+}
+
+#container div{
+    padding: 2%;
+}
+
+#container{
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#time{
+    order: 1;
+    background-color: firebrick;
+    align-self: flex-start;
+}
+
+#day{
+    order:2;
+    background-color: grey;
+    align-self: flex-end;
+}
+
+#date{
+    order:4;
+    background-color: sienna;
+}
+
+#score{
+    order: 3;
+    background-color: navy;
+}
+
+#month{
+    order: 5;
+    background-color: olive;
+}
+
+#year{
+    order:6;
+    background-color: violet;
+}

@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-size: 2.5em;
+}
+
+div{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#container div{
+    padding: 2%;
+}
+
+#score{
+    order: 3;
+    background-color: red;
+}
+
+#time{
+    order: 1;
+    align-self: flex-end;
+    background-color: aqua;
+}
+
+#date{
+    order: 2;
+    align-self: flex-start;
+    background-color: cornflowerblue;
+}
+
+#month{
+    order:5;
+    background-color: darkorange;
+}
+
+#year{
+    order: 6;
+    background-color: olivedrab;
+}
+
+#weekday{
+    order:4;
+    background-color: darksalmon;
+}
